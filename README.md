@@ -1,6 +1,6 @@
 # MLflow & XGBoost Credit Scoring Model
 
-Welcome! This repository showcases a hands-on MLOps project where I integrated an XGBoost classifier with MLflow to build a reproducible and deployable credit scoring model. Using 1000 samples from the German Credit dataset, the project demonstrates how to streamline the entire machine learning workflow—from data preprocessing and hyperparameter tuning to model evaluation and logging.
+This repository showcases a hands-on MLOps project where I integrated an XGBoost classifier with MLflow to build a reproducible and deployable credit scoring model. Using 1000 samples from the German Credit dataset, the project demonstrates how to streamline the entire machine learning workflow—from data preprocessing and hyperparameter tuning to model evaluation and logging.
 
 ---
 
