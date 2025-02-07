@@ -1,0 +1,41 @@
+artifact_path: model_with_preprocessing
+flavors:
+  python_function:
+    artifacts:
+      classifier:
+        path: artifacts/tmpkxom5z34.pkl
+        uri: /tmp/tmpkxom5z34.pkl
+      preprocessor:
+        path: artifacts/tmpcvbq0s5b.pkl
+        uri: /tmp/tmpcvbq0s5b.pkl
+    cloudpickle_version: 3.1.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.11.0
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 2.20.1
+model_size_bytes: 51120
+model_uuid: 8b2a77ccb5924afbb57866004b37131c
+run_id: 7165161e135c4b8aa32ca52786693b4f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "Job", "required": true}, {"type": "long", "name": "Credit amount", "required":
+    true}, {"type": "long", "name": "Duration", "required": true}, {"type": "string",
+    "name": "Sex", "required": true}, {"type": "string", "name": "Housing", "required":
+    true}, {"type": "string", "name": "Saving accounts", "required": true}, {"type":
+    "string", "name": "Checking account", "required": true}, {"type": "string", "name":
+    "Purpose", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-02-07 13:30:03.989613'
