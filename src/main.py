@@ -8,7 +8,7 @@ mlflow.set_tracking_uri("sqlite:///../experiments/credit_risk_model.db")
 existing_exp = mlflow.get_experiment_by_name('CreditRiskModel')
 if not existing_exp:
     mlflow.create_experiment('CreditRiskModel', artifact_location="../experiments/mlruns")
-mlflow.set_experiment('Credit Score')
+mlflow.set_experiment('CreditRiskModel')
 NUMERIC_FEATURES = ['Age', 'Job', 'Credit amount', 'Duration']
 CATEGORICAL_FEATURES = ['Sex', 'Housing', 'Saving accounts', 'Checking account', 'Purpose']
 
